@@ -1,4 +1,6 @@
+#summary The formatCurrency, toNumber, and asNumber usage documentation
 #labels Phase-Implementation
+
 =formatCurrency(destination _optional_, options)=
 
 ==Overview==
