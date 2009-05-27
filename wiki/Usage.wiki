@@ -8,11 +8,13 @@ The formatCurrency function modifies the values or contents of a jQuery object s
 An optional property in the [http://docs.jquery.com/Selectors jQuery selector] format that will recieve the formatted version of the object set.  If no destination is provided the original contents will be replaced with the formatted version.
 
 ==Options==
+
 || *symbol* || string || default: '$' ||
+
 The currency symbol to be used in the %s value of the postive or negative formats.
 
 || *positiveFormat* || string || default: '%s%n' ||
-The format notation for setting destination value.  The *%s* variable signifies the symbol, and the *%n* variable signifies the number. An example of the default settings if the number 1000 were passed using '%s%n' would resulting in $1,000.00.
+||The format notation for setting destination value.  The *%s* variable signifies the symbol, and the *%n* variable signifies the number. An example of the default settings if the number 1000 were passed using '%s%n' would resulting in $1,000.00. ||
 
 || *negativeFormat* || string || default: '(%s%n)' ||
 The format notation for setting destination value. The *%s* variable signifies the symbol, and the *%n* variable signifies the number. An example of the default settings if the number 1000 were passed using '%s%n' would resulting in ($1,000.00).
@@ -35,24 +37,24 @@ One of the many cultures listed on the InternationalSupport page.  In order to u
 ==Examples==
 For a working demo see http://bendewey.com/code/formatCurrency/demo.  Here are some common examples
 
-{{
+{{{
 $('.label').formatCurrency();
-}}
+}}}
 Formats the values of any DOM elements with a class of 'label' as currency.
 
-{{
+{{{
 $('.source').formatCurrency('.destination');
-}}
+}}}
 Converts the value of a DOM element with a class of 'source' as currency to the element with a class of destination.  If multiple items result from the source or destination objects all the destinations will be set to the last source value.
 
-{{
+{{{
 $('.label').formatCurrency({ colorize:true });
-}}
+}}}
 Automatically sets the color css property depending on whether the value is positive or negative.
 
-{{
+{{{
 $('.label').formatCurrency({ colorize:true, region: 'de-DE' });
 // or
 $('.label').formatCurrency($.extend({ colorize: true }, $.formatCurrency.region['de-DE']));
-}}
+}}}
 The resulting value of the .label elements will be formatted using the 'German (Germany)' currency format, and the results will change color based whether the output is positive or negative.
