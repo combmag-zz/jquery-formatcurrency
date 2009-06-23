@@ -24,6 +24,10 @@ The symbol to be used to seperate the dollars from the cents.
 
 The symbol to be used to seperate the thousands place when grouping the numbers.
 
+|| *dropDecimals* || boolean || default: false ||
+
+A boolean flag for dropping decimal places (cents) at the end of the dollar amount.
+
 || *groupDigits* || boolean || default: true ||
 
 A boolean flag for grouping the digits into the thousands.  If true the value of 1000 would result in $1,000.00.  When false the value of 1000 would result in $1000.00.
