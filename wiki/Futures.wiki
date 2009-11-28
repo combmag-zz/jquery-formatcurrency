@@ -7,16 +7,14 @@ This page is devoted to discussions of future plans for the plugin.  Any ideas f
 
 = Format Currency =
 
-# Bug Fixes
-# Summing and Totaling Grids and Tables
-# Adding support for linking quantity with prices for summing and totalling
+  # Bug Fixes
+  # Summing and Totaling Grids and Tables
+  # Adding support for linking quantity with prices for summing and totalling
 
 = Number Formatting =
 
-# Add support for international number formatting
+  # Add support for international number formatting
 
 = Date Formatting =
 
-# Should we do this?  jQuery datePicker already has an implementation.
-
-
+  # Should we do this?  jQuery datePicker already has an implementation.
