@@ -50,7 +50,7 @@ One of the many cultures listed on the InternationalSupport page.  In order to u
 
 || *roundToDecimalPlace* || int || default: 2 ||
 
-An integer that indicates what decimal digit to round to (e.g. 0, 2, etc.). Use -1 to disable rounding. Defaults to two(2) decimal digits.
+An integer that indicates what decimal digit to round to (e.g. 0, 2, etc.). Use -1 to disable rounding with 2 decimals and use -2 to disable rounding with 0 decimals. Defaults to 2 decimal digits with rounding.
 
 || *symbol* || string || default: '$' ||
 
