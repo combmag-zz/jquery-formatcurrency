@@ -24,13 +24,13 @@ The symbol to be used to seperate the dollars from the cents.
 
 The symbol to be used to seperate the thousands place when grouping the numbers.
 
-|| *dropDecimals* || boolean || default: false || _deprecated in 1.1_ see roundToDecimalPlace ||
+|| *dropDecimals* || boolean || default: false || *_deprecated in 1.1_* see roundToDecimalPlace ||
 
-_deprecated_ A boolean flag for dropping decimal places (cents) at the end of the dollar amount.
+*_deprecated_* A boolean flag for dropping decimal places (cents) at the end of the dollar amount.
 
-|| eventOnDecimalsEntered || function || default: null ||
+|| *eventOnDecimalsEntered* || boolean|| default: false ||
 
-Enable this boolean flag if you only want numbers without any cents (integers). This will enable triggering of the custom eventOnDecimalsEntered event. Binding to this event will indicate what the decimal amount is. This allows for easy notification to the end user. Defaults to false.
+Enable this flag if you only want numbers without any decimals. This will enable triggering of the custom decimalsEntered event. Binding to this event will indicate what the decimal amount is. This allows for easy notification to the end user.
 
 || *groupDigits* || boolean || default: true ||
 
@@ -48,7 +48,7 @@ The format notation for setting destination value.  The *%s* variable signifies 
 
 One of the many cultures listed on the InternationalSupport page.  In order to use these values you will have to include the corresponding i18n file to your page.  You can also include the jQuery.formatCurrency.all.js file to include all supported regions.  If a culture cannot be found the region will be attempted, if the region cannot be found the default value will be used. (eg.  If the region supplied is 'es-MX' and 'es-MX' is not found 'es' will be used.  If 'es is not found then '' will be used).
 
-|| roundToDecimalPlace || int || default: 2 ||
+|| *roundToDecimalPlace* || int || default: 2 ||
 
 An integer that indicates what decimal digit to round to (e.g. 0, 2, etc.). Use -1 to disable rounding. Defaults to two(2) decimal digits.
 
@@ -57,7 +57,7 @@ An integer that indicates what decimal digit to round to (e.g. 0, 2, etc.). Use 
 The currency symbol to be used in the %s value of the postive or negative formats.
 
 ==Events==
-|| decimalsEntered ||
+|| *decimalsEntered* ||
 
 Fires when the field being formatted contains decimals.  Requires the eventOnDecimalsEntered be set to true.
 
