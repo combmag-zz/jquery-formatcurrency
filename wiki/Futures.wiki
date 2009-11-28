@@ -1,5 +1,5 @@
+#summary The page is devoted to discussions on future plans
 #labels Phase-Requirements
-#The page is devoted to discussions on future plans
 
 = Introduction =
 
@@ -7,8 +7,16 @@ This page is devoted to discussions of future plans for the plugin.  Any ideas f
 
 = Format Currency =
 
+# Bug Fixes
+# Summing and Totaling Grids and Tables
+# Adding support for linking quantity with prices for summing and totalling
+
 = Number Formatting =
 
+# Add support for international number formatting
+
 = Date Formatting =
+
+# Should we do this?  jQuery datePicker already has an implementation.
 
 
