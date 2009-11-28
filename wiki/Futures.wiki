@@ -1,0 +1,14 @@
+#labels Phase-Requirements
+#The page is devoted to discussions on future plans
+
+= Introduction =
+
+This page is devoted to discussions of future plans for the plugin.  Any ideas for new features or new options please utilize this page to comment.
+
+= Format Currency =
+
+= Number Formatting =
+
+= Date Formatting =
+
+
