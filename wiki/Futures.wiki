@@ -11,6 +11,11 @@ This page is devoted to discussions of future plans for the plugin.  Any ideas f
   # Summing and Totaling Grids and Tables
   # Adding support for linking quantity with prices for summing and totalling
 
+= Credit Card Formating =
+
+  # Auto format credit card numbers
+  # Match Card numbers with type
+
 = Number Formatting =
 
   # Add support for international number formatting
