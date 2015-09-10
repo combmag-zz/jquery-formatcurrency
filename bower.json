@@ -1,0 +1,21 @@
+{
+    "name": "jquery-formatcurrency",
+    "main": ["jquery.formatcurrency-1.4.0.js", "i18n/jquery.formatCurrency.all.js"],
+    "version": "1.4.0",
+    "homepage": "https://github.com/chrismagri/jquery-formatcurrency",
+    "authors": [
+        ""
+    ],
+    "description": "Currency Formater",
+    "keywords": [
+        "jquery",
+        "currency"
+    ],
+    "license": "GNU",
+    "ignore": [
+        "**/.*"
+    ],
+    "dependencies": {
+        "jquery": ">=1.7"
+    }
+}
